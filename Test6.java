@@ -8,7 +8,7 @@ public class Test6{
         System.out.println("Emter first integer:");
         grade = input.nextInt();
         
-          switch(grade /10){
+        switch (grade / 10){
            
             case 9:
             case 10:
