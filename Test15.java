@@ -3,17 +3,17 @@ public class Test15 {
         int i,j;
         
 
-        for( i=1 ;  i<7 ; i++){
-            for( j=0 ; j<6 ; j++){
-                
-                if(j<6-i){
-                System.out.printf("*",j);
+        for( i=6 ;  i>0 ; i--){
+        
+            for( j=1 ; j<7 ; j++){           
+                if(j<i){
+                    System.out.printf("*",j);
                 }
-                else{
-                System.out.printf("%d",j);
+                else{    
+                    System.out.printf("%d",j-i+1);
+                  
                 }
             }  
-     
             System.out.printf("\n");    
         }        
     }
